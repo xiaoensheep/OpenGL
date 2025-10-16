@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/learnshader.dir/2_shader/LearnShader.cpp.o CMakeFiles/learnshader.dir/home/zxy/Development/OpenGL/glad/src/glad.c.o -o learnshader  /usr/lib/x86_64-linux-gnu/libGL.so /usr/local/lib/libglfw3.a /usr/lib/x86_64-linux-gnu/librt.a -lm -ldl 

@@ -1,4 +1,8 @@
 {
     "editor.inlineSuggest.enabled": false,
+    "files.associations": {
+        "fstream": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled",
 
 }
