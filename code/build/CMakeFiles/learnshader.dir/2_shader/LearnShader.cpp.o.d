@@ -1,7 +1,8 @@
 CMakeFiles/learnshader.dir/2_shader/LearnShader.cpp.o: \
  /home/zxy/Development/OpenGL/code/2_shader/LearnShader.cpp \
- /usr/include/stdc-predef.h /usr/local/include/glad/glad.h \
- /usr/local/include/KHR/khrplatform.h \
+ /usr/include/stdc-predef.h \
+ /home/zxy/Development/OpenGL/glad/include/glad/glad.h \
+ /home/zxy/Development/OpenGL/glad/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

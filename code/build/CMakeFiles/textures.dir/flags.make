@@ -5,13 +5,13 @@
 # compile CXX with /usr/bin/c++
 C_DEFINES = 
 
-C_INCLUDES = -I/home/zxy/Development/OpenGL/glad/include -I/home/zxy/Development/OpenGL/code/2_shader
+C_INCLUDES = -I/home/zxy/Development/OpenGL/glad/include -I/home/zxy/Development/OpenGL/code/Inc
 
 C_FLAGS = 
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/zxy/Development/OpenGL/glad/include -I/home/zxy/Development/OpenGL/code/2_shader
+CXX_INCLUDES = -I/home/zxy/Development/OpenGL/glad/include -I/home/zxy/Development/OpenGL/code/Inc
 
 CXX_FLAGS = -std=gnu++11
 

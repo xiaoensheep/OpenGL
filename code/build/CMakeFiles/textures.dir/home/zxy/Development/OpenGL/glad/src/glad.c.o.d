@@ -1,4 +1,4 @@
-CMakeFiles/learnshader.dir/home/zxy/Development/OpenGL/glad/src/glad.c.o: \
+CMakeFiles/textures.dir/home/zxy/Development/OpenGL/glad/src/glad.c.o: \
  /home/zxy/Development/OpenGL/glad/src/glad.c /usr/include/stdc-predef.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \

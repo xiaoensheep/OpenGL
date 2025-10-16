@@ -129,6 +129,19 @@ learnshader/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnshader.dir/build.make CMakeFiles/learnshader.dir/build
 .PHONY : learnshader/fast
 
+#=============================================================================
+# Target rules for targets named textures
+
+# Build rule for target.
+textures: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 textures
+.PHONY : textures
+
+# fast build rule for target.
+textures/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/textures.dir/build.make CMakeFiles/textures.dir/build
+.PHONY : textures/fast
+
 2_shader/LearnShader.o: 2_shader/LearnShader.cpp.o
 .PHONY : 2_shader/LearnShader.o
 
@@ -153,12 +166,37 @@ learnshader/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnshader.dir/build.make CMakeFiles/learnshader.dir/2_shader/LearnShader.cpp.s
 .PHONY : 2_shader/LearnShader.cpp.s
 
+3_Textures/texture.o: 3_Textures/texture.cpp.o
+.PHONY : 3_Textures/texture.o
+
+# target to build an object file
+3_Textures/texture.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/textures.dir/build.make CMakeFiles/textures.dir/3_Textures/texture.cpp.o
+.PHONY : 3_Textures/texture.cpp.o
+
+3_Textures/texture.i: 3_Textures/texture.cpp.i
+.PHONY : 3_Textures/texture.i
+
+# target to preprocess a source file
+3_Textures/texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/textures.dir/build.make CMakeFiles/textures.dir/3_Textures/texture.cpp.i
+.PHONY : 3_Textures/texture.cpp.i
+
+3_Textures/texture.s: 3_Textures/texture.cpp.s
+.PHONY : 3_Textures/texture.s
+
+# target to generate assembly for a file
+3_Textures/texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/textures.dir/build.make CMakeFiles/textures.dir/3_Textures/texture.cpp.s
+.PHONY : 3_Textures/texture.cpp.s
+
 home/zxy/Development/OpenGL/glad/src/glad.o: home/zxy/Development/OpenGL/glad/src/glad.c.o
 .PHONY : home/zxy/Development/OpenGL/glad/src/glad.o
 
 # target to build an object file
 home/zxy/Development/OpenGL/glad/src/glad.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnshader.dir/build.make CMakeFiles/learnshader.dir/home/zxy/Development/OpenGL/glad/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/textures.dir/build.make CMakeFiles/textures.dir/home/zxy/Development/OpenGL/glad/src/glad.c.o
 .PHONY : home/zxy/Development/OpenGL/glad/src/glad.c.o
 
 home/zxy/Development/OpenGL/glad/src/glad.i: home/zxy/Development/OpenGL/glad/src/glad.c.i
@@ -167,6 +205,7 @@ home/zxy/Development/OpenGL/glad/src/glad.i: home/zxy/Development/OpenGL/glad/sr
 # target to preprocess a source file
 home/zxy/Development/OpenGL/glad/src/glad.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnshader.dir/build.make CMakeFiles/learnshader.dir/home/zxy/Development/OpenGL/glad/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/textures.dir/build.make CMakeFiles/textures.dir/home/zxy/Development/OpenGL/glad/src/glad.c.i
 .PHONY : home/zxy/Development/OpenGL/glad/src/glad.c.i
 
 home/zxy/Development/OpenGL/glad/src/glad.s: home/zxy/Development/OpenGL/glad/src/glad.c.s
@@ -175,6 +214,7 @@ home/zxy/Development/OpenGL/glad/src/glad.s: home/zxy/Development/OpenGL/glad/sr
 # target to generate assembly for a file
 home/zxy/Development/OpenGL/glad/src/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/learnshader.dir/build.make CMakeFiles/learnshader.dir/home/zxy/Development/OpenGL/glad/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/textures.dir/build.make CMakeFiles/textures.dir/home/zxy/Development/OpenGL/glad/src/glad.c.s
 .PHONY : home/zxy/Development/OpenGL/glad/src/glad.c.s
 
 # Help Target
@@ -186,9 +226,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... learnshader"
+	@echo "... textures"
 	@echo "... 2_shader/LearnShader.o"
 	@echo "... 2_shader/LearnShader.i"
 	@echo "... 2_shader/LearnShader.s"
+	@echo "... 3_Textures/texture.o"
+	@echo "... 3_Textures/texture.i"
+	@echo "... 3_Textures/texture.s"
 	@echo "... home/zxy/Development/OpenGL/glad/src/glad.o"
 	@echo "... home/zxy/Development/OpenGL/glad/src/glad.i"
 	@echo "... home/zxy/Development/OpenGL/glad/src/glad.s"
