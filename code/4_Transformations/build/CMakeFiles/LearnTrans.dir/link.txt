@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/LearnTrans.dir/LearnTrans.cpp.o CMakeFiles/LearnTrans.dir/home/zxy/Development/OpenGL/glad/src/glad.c.o -o LearnTrans  /usr/lib/x86_64-linux-gnu/libGL.so /usr/lib/x86_64-linux-gnu/libGLU.so /usr/local/lib/libglfw3.a /usr/lib/x86_64-linux-gnu/librt.a -lm -ldl 

@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/textures.dir/3_Textures/texture.cpp.o CMakeFiles/textures.dir/home/zxy/Development/OpenGL/glad/src/glad.c.o -o textures  /usr/lib/x86_64-linux-gnu/libGL.so /usr/local/lib/libglfw3.a /usr/lib/x86_64-linux-gnu/librt.a -lm -ldl 

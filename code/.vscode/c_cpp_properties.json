@@ -3,7 +3,8 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "/home/zxy/Development/OpenGL/glm-1.0.2"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

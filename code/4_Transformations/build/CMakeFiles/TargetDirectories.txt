@@ -1,0 +1,3 @@
+/home/zxy/Development/OpenGL/code/4_Transformations/build/CMakeFiles/LearnTrans.dir
+/home/zxy/Development/OpenGL/code/4_Transformations/build/CMakeFiles/edit_cache.dir
+/home/zxy/Development/OpenGL/code/4_Transformations/build/CMakeFiles/rebuild_cache.dir
