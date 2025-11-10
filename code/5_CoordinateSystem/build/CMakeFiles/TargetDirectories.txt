@@ -1,0 +1,3 @@
+/home/zxy/Development/OpenGL/code/5_CoordinateSystem/build/CMakeFiles/LearnCoorSys.dir
+/home/zxy/Development/OpenGL/code/5_CoordinateSystem/build/CMakeFiles/edit_cache.dir
+/home/zxy/Development/OpenGL/code/5_CoordinateSystem/build/CMakeFiles/rebuild_cache.dir
