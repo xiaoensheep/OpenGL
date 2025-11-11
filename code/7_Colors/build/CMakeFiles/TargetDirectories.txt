@@ -1,0 +1,3 @@
+/home/zxy/Development/OpenGL/code/7_Colors/build/CMakeFiles/LearnColors.dir
+/home/zxy/Development/OpenGL/code/7_Colors/build/CMakeFiles/edit_cache.dir
+/home/zxy/Development/OpenGL/code/7_Colors/build/CMakeFiles/rebuild_cache.dir
