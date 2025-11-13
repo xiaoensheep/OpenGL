@@ -1,0 +1,3 @@
+/home/zxy/Development/OpenGL/code/8_BasicLight/build/CMakeFiles/LearnBasicLight.dir
+/home/zxy/Development/OpenGL/code/8_BasicLight/build/CMakeFiles/edit_cache.dir
+/home/zxy/Development/OpenGL/code/8_BasicLight/build/CMakeFiles/rebuild_cache.dir

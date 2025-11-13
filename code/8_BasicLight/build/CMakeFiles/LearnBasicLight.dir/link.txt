@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/LearnBasicLight.dir/LearnBasicLight.cpp.o CMakeFiles/LearnBasicLight.dir/home/zxy/Development/OpenGL/glad/src/glad.c.o -o LearnBasicLight  /usr/lib/x86_64-linux-gnu/libGL.so /usr/lib/x86_64-linux-gnu/libGLU.so /usr/local/lib/libglfw3.a /usr/lib/x86_64-linux-gnu/librt.a -lm -ldl 

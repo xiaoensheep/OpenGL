@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/zxy/Development/OpenGL/code/build",
+  "command": "/usr/bin/g++ -I/home/zxy/Development/OpenGL/glad/include -I/home/zxy/Development/OpenGL/code/2_shader -g -std=gnu++11 -o CMakeFiles/learnshader.dir/2_shader/LearnShader.cpp.o -c /home/zxy/Development/OpenGL/code/2_shader/LearnShader.cpp",
+  "file": "/home/zxy/Development/OpenGL/code/2_shader/LearnShader.cpp",
+  "output": "CMakeFiles/learnshader.dir/2_shader/LearnShader.cpp.o"
+},
+{
+  "directory": "/home/zxy/Development/OpenGL/code/build",
+  "command": "/usr/bin/gcc -I/home/zxy/Development/OpenGL/glad/include -I/home/zxy/Development/OpenGL/code/2_shader -g -o CMakeFiles/learnshader.dir/home/zxy/Development/OpenGL/glad/src/glad.c.o -c /home/zxy/Development/OpenGL/glad/src/glad.c",
+  "file": "/home/zxy/Development/OpenGL/glad/src/glad.c",
+  "output": "CMakeFiles/learnshader.dir/home/zxy/Development/OpenGL/glad/src/glad.c.o"
+},
+{
+  "directory": "/home/zxy/Development/OpenGL/code/build",
+  "command": "/usr/bin/g++ -I/home/zxy/Development/OpenGL/glad/include -I/home/zxy/Development/OpenGL/code/Inc -g -std=gnu++11 -o CMakeFiles/textures.dir/3_Textures/texture.cpp.o -c /home/zxy/Development/OpenGL/code/3_Textures/texture.cpp",
+  "file": "/home/zxy/Development/OpenGL/code/3_Textures/texture.cpp",
+  "output": "CMakeFiles/textures.dir/3_Textures/texture.cpp.o"
+},
+{
+  "directory": "/home/zxy/Development/OpenGL/code/build",
+  "command": "/usr/bin/gcc -I/home/zxy/Development/OpenGL/glad/include -I/home/zxy/Development/OpenGL/code/Inc -g -o CMakeFiles/textures.dir/home/zxy/Development/OpenGL/glad/src/glad.c.o -c /home/zxy/Development/OpenGL/glad/src/glad.c",
+  "file": "/home/zxy/Development/OpenGL/glad/src/glad.c",
+  "output": "CMakeFiles/textures.dir/home/zxy/Development/OpenGL/glad/src/glad.c.o"
+}
+]

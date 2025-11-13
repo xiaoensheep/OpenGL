@@ -1,0 +1,4 @@
+/home/zxy/Development/OpenGL/code/build/CMakeFiles/learnshader.dir
+/home/zxy/Development/OpenGL/code/build/CMakeFiles/textures.dir
+/home/zxy/Development/OpenGL/code/build/CMakeFiles/edit_cache.dir
+/home/zxy/Development/OpenGL/code/build/CMakeFiles/rebuild_cache.dir
